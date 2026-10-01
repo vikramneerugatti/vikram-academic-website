@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+export const dynamic = "force-dynamic";
+
 type EventItem = {
   title: string;
   type: "Workshop" | "FDP" | "SDP" | "Program";
@@ -119,7 +121,7 @@ const iotEventsData: EventItem[] = [
     ],
     fees: [
       { category: "External Faculty", amount: "Free" },
-      { category: "External Students", amount: "Scale: ₹150" },
+      { category: "External Students", amount: "₹150" },
       { category: "Jain Faculty & Students", amount: "Free" }
     ],
     importantDates: [
