@@ -21,32 +21,32 @@ const eventsData: EventItem[] = [
   {
     title: "Five Days Online FDP On IoT Metaverse",
     type: "FDP",
-    date: "18 January 2026 - 20 January 2026",
-    status: "Completed",
+    date: "18 January 2027 - 20 January 2027",
+    status: "Upcoming",
     desc: "Focuses on the convergence of IoT and Metaverse technologies, exploring how real-world data connects with cloud ecosystems, AI, and digital twins.",
     topics: ["Next-Generation IoT Systems", "Metaverse & Spatial Computing", "IoT-Metaverse Integration", "Digital Twins", "Edge AI", "Cybersecurity & Privacy"],
     fees: [{ cat: "External Faculty", fee: "₹350" }, { cat: "External Students", fee: "₹150" }, { cat: "Jain Members", fee: "Free" }],
-    contact: "Dr. Vikram Neerugatti (+91 8074481964)"
+    contact: "Prof. Basavaraju  (+91 99647 24949)"
   },
   {
     title: "DIGITAL TWIN - Five Days IoT Workshop",
     type: "Workshop",
-    date: "22 February 2026 - 26 February 2026",
-    status: "Completed",
+    date: "22 February 2027 - 26 February 2027",
+    status: "Upcoming",
     desc: "An intensive five-day workshop focused on understanding and applying Digital Twin frameworks in smart environments using cloud platforms and simulation tools.",
     topics: ["IoT Architecture", "Sensor & Cloud Pipelines", "Real-time Synchronization", "Predictive Maintenance", "Team Mini-Project Showcase"],
     fees: [{ cat: "All Categories", fee: "Free" }],
-    contact: "Dr. Vikram Neerugatti (+91 8074481964)"
+    contact: "Dr. Srinivasa Rao P (+91 99850 32966)"
   },
   {
     title: "BEYOND PROMPT - Three Days Online SDP On Agentic AI",
     type: "SDP",
-    date: "13 October 2026 - 15 October 2026",
-    status: "Completed",
+    date: "13 October 2027 - 15 October 2027",
+    status: "Upcoming",
     desc: "Takes students past traditional prompting into autonomous AI systems that reason, plan, use tools, and collaborate securely.",
     topics: ["Generative to Agentic Evolution", "Building Your First AI Agent", "Reason, Plan, Decide & Act", "Tools, Memory, RAG & Workflows", "Multi-Agent Systems"],
     fees: [{ cat: "All Registered Participants", fee: "Free" }],
-    contact: "Dr. Vikram Neerugatti (+91 8074481964)"
+    contact: "Dr. Kumaresan (+91 99443 50506)"
   },
   {
     title: "ARDUINO DAY 2027 - Learn. Explore. Innovate",
@@ -57,7 +57,7 @@ const eventsData: EventItem[] = [
     topics: ["Introduction to Arduino Boards", "Architecture, Pins & Interfaces", "Arduino IDE Workflow", "Hardware Interfacing Demo", "Project Expo & Awards"],
     fees: [{ cat: "External Faculty", fee: "Free" }, { cat: "External Students", fee: "₹150" }, { cat: "Jain Members", fee: "Free" }],
     dates: [{ label: "Early Registration", date: "1st March 2027" }, { label: "Late Registration", date: "24th March 2027" }],
-    contact: "Dr. Vikram Neerugatti (+91 8074481964)"
+    contact: "Prof. Udaygiri Prasad & Prof. Lavanya (+91 91773 65767)"
   },
   {
     title: "RESEARCH - A - THON 2.0 - Three Week Research Program",
@@ -68,7 +68,7 @@ const eventsData: EventItem[] = [
     topics: ["Orientation & Problem Identification", "Domain Draw & Literature Review", "Research Presentation & Evaluation", "Refinement & Validation Planning", "Paper Development Pipeline"],
     fees: [{ cat: "External Faculty", fee: "Free" }, { cat: "External Students", fee: "₹150" }, { cat: "Jain Members", fee: "Free" }],
     dates: [{ label: "Early Enrolment", date: "15th March 2027" }, { label: "Late Deadline", date: "28th March 2027" }],
-    contact: "Dr. Vikram Neerugatti (+91 8074481964)"
+    contact: "Dr. Panguranga Rao & Dr. Vijay Kumar A (+91 8073 254 459)"
   }
 ];
 
@@ -85,7 +85,7 @@ export default function IoTEventsPage() {
       <nav className="border-b border-white/10 bg-slate-950/80 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <Link href="/" className="text-xl font-bold tracking-tight">
-            Pagat Neerugatti <span className="text-cyan-400 text-sm font-medium ml-1">IoT Hub</span>
+            Vikram Neerugatti <span className="text-cyan-400 text-sm font-medium ml-1">IoT Hub</span>
           </Link>
           <Link href="/" className="text-sm text-slate-400 transition hover:text-white">
             ← Home
@@ -185,7 +185,7 @@ export default function IoTEventsPage() {
       {/* FOOTER */}
       <footer className="border-t border-white/10 mt-20">
         <div className="mx-auto max-w-7xl px-6 py-6 text-center text-xs text-slate-600">
-          © {new Date().getFullYear()} Pagat Neerugatti • JAIN University
+          © {new Date().getFullYear()} Vikram Neerugatti • JAIN University
         </div>
       </footer>
     </main>
